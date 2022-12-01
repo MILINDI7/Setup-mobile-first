@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 756px;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 50px 24px;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+}
+
+.logo a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
+  text-decoration: none;
+}
+
+section {
+  background-image: url(/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  max-width: 450px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  padding: 0 24px;
+}
+
+
+
+.more-info  {
+  max-width: 397px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: #344563;
+  padding: 0 24px;
+}
+
+.sub {
+  max-width: 137px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  padding: 0 24px;
+}
+
+.socials {
+  max-width: 170.17px;
+  height: 20px;
+}
+
+.socials ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: -20px;
+  padding-top: 10px;
+  gap: 25px;
+  list-style: none;
+}
