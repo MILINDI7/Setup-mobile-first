@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 756px;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 8px 24px;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+}
+
+.logo a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+section {
+  background-image: url(/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title {
+  max-width: 330px;
+  height: 150px;
+  padding: 0 24px;
+}
+
+.title h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.more-info {
+  max-width: 397px;
+  height: 146px;
+  padding: 0 24px;
+}
+
+.more-info p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.sub {
+  max-width: 137px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 0 24px;
+}
+
+.socials {
+  max-width: 170.17px;
+  height: 20px;
+  margin-top: -15px;
+}
+
+.socials ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: -20px;
+  padding-top: 10px;
+  gap: 25px;
+  list-style: none;
+}
