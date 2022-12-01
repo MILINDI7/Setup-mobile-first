@@ -5,7 +5,7 @@
 
 > Mobile first
 
-**In this project I built a simple introduction card on a portfolio starting with mobuile first.
+**In this project I built a simple introduction card on a portfolio starting with mobile first.
 
 ## 🛠 Built With <a name="built-with"></a>
 
