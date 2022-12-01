@@ -50,12 +50,16 @@ section {
   height: 500px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 40px;
 }
 
 .title {
-  max-width: 450px;
+  max-width: 330px;
   height: 150px;
+  padding: 0 24px;
+}
+
+.title h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -64,19 +68,21 @@ section {
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding: 0 24px;
 }
 
 .more-info {
   max-width: 397px;
   height: 146px;
+  padding: 0 24px;
+}
+
+.more-info p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 24px;
   color: #344563;
-  padding: 0 24px;
 }
 
 .sub {
@@ -94,6 +100,7 @@ section {
 .socials {
   max-width: 170.17px;
   height: 20px;
+  margin-top: -15px;
 }
 
 .socials ul {
