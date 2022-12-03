@@ -135,7 +135,7 @@ nav {
 
 .card1 {
   max-width: 327px;
-  height: 600px;
+  max-height: 596px;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
@@ -181,11 +181,19 @@ nav {
 }
 
 .back-end p {
-  padding-top: 10px;
+  padding-top: 9px;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 13px;
+  color: #7a869a;
 }
 
 .year p {
-  padding-top: 10px;
+  padding-top: 9px;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 13px;
+  color: #7a869a;
 }
 
 .simple-header h4 {
