@@ -15,8 +15,7 @@ body {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   max-width: 756px;
   background-color: #e5e5e5;
   gap: 120px;
