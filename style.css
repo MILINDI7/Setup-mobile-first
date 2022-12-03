@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -43,7 +44,6 @@ nav {
 }
 
 .logo a {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -74,7 +74,6 @@ nav {
 }
 
 .title h1 {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -91,7 +90,6 @@ nav {
 }
 
 .more-info p {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -102,7 +100,6 @@ nav {
 .sub {
   max-width: 137px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -158,7 +155,6 @@ nav {
 .subtitle h3 {
   width: 280px;
   height: 27px;
-  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
   color: #172b4d;
@@ -195,7 +191,6 @@ nav {
 .simple-header h4 {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -206,7 +201,6 @@ nav {
 .information p {
   width: 280px;
   height: 76px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -232,7 +226,6 @@ nav {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -250,7 +243,6 @@ nav {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -268,7 +260,6 @@ nav {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -293,7 +284,6 @@ nav {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -313,7 +303,6 @@ nav {
 .title7 h3 {
   width: 300px;
   height: 100px;
-  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
@@ -322,7 +311,6 @@ nav {
 .more-abouts p {
   max-width: 370px;
   height: 100px;
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #344563;
@@ -340,7 +328,6 @@ nav {
 .subs {
   max-width: 137px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -355,7 +342,6 @@ nav {
   border-radius: 8px;
   padding: 12px;
   background-color: #fff;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
@@ -383,7 +369,6 @@ nav {
 }
 
 .lang h4 {
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #000;
@@ -416,7 +401,6 @@ nav {
 }
 
 .labels {
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #253858;
   margin-top: auto;
@@ -439,7 +423,6 @@ nav {
   height: 65px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
 
