@@ -22,6 +22,14 @@ main {
   gap: 120px;
 }
 
+.heading-header {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: #fff;
+  border-bottom-left-radius: 45px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -52,7 +60,7 @@ nav {
   background-image: url(/images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -132,7 +140,6 @@ nav {
 .card1 {
   max-width: 327px;
   height: 600px;
-  padding: auto auto;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
@@ -189,7 +196,7 @@ nav {
 .simple-header h4 {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -200,7 +207,7 @@ nav {
 .information p {
   width: 280px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -224,15 +231,15 @@ nav {
   padding: 4px 12px;
   width: 53px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .css button {
@@ -242,15 +249,15 @@ nav {
   padding: 4px 12px;
   width: 45px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .javascript button {
@@ -260,14 +267,15 @@ nav {
   padding: 4px 12px;
   width: 89px;
   height: 24px;
-  background: #EBEBFF;
-  border-radius: 8px;font-family: 'Poppins';
+  background: #ebebff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .submit {
@@ -275,7 +283,7 @@ nav {
   margin-top: 15px;
 }
 
-.submit button{
+.submit button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -283,19 +291,17 @@ nav {
   gap: 10px;
   width: 124px;
   height: 48px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .all-about {
@@ -324,7 +330,7 @@ nav {
 }
 
 .social-medias ul {
-   display: flex;
+  display: flex;
   flex-direction: row;
   margin-left: -20px;
   padding-top: 10px;
@@ -441,9 +447,4 @@ nav {
 .frames svg {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.skill-soft {
-  display: flex;
-  flex-direction: column;
 }
