@@ -444,3 +444,88 @@ nav {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 20px;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  background-image: url(./images/footer-back.png);
+  background-repeat: no-repeat;
+  background-size: 200px 920px;
+  background-position: right;
+}
+
+.form-entry {
+  height: 430px;
+  max-width: 370px;
+}
+
+.form-entry ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.form-title {
+  width: 310px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-title h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.form-description {
+  max-width: 350px;
+}
+
+.form-description p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  line-height: 28px;
+}
+
+.form-names input {
+  width: 300px;
+  height: 45px;
+  padding: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+.form-mail input {
+  width: 300px;
+  height: 45px;
+  padding: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+.form-text textarea {
+  width: 300px;
+  height: 170px;
+  padding: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #cfd8dc;
+}
