@@ -609,7 +609,7 @@ nav {
     min-width: 768px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 160px;
     width: 100%;
     padding: 0;
@@ -617,9 +617,9 @@ nav {
   }
 
   .heading-header {
-   min-width: 768px;
-   width: 1790px;
-   height: 916px;
+    min-width: 768px;
+    width: 1790px;
+    height: 916px;
   }
 
   .section1 {
@@ -673,7 +673,7 @@ nav {
     height: 98px;
   }
 
-  .more-info p{
+  .more-info p {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -718,7 +718,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    height:490px;
+    height: 490px;
   }
 
   .right-obj {
@@ -734,13 +734,7 @@ nav {
     height: 24px;
   }
 
-  #tit1 h3 {
-    width: 496px;
-    font-weight: 700;
-    font-size: 40px;
-  }
-
-  #left1,#left2 {
+  #left1, #left2 {
     display: flex;
     flex-direction: row-reverse;
   }
@@ -800,7 +794,7 @@ nav {
   }
 
   #par1 {
-    display:  none;
+    display: none;
   }
 
   #ub1 {
@@ -815,7 +809,7 @@ nav {
     display: none;
   }
 
-  .ruby button{
+  .ruby button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -962,6 +956,12 @@ nav {
     text-align: center;
   }
 
+  #tit1 h3 {
+    width: 496px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
   .form-title h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -1009,5 +1009,4 @@ nav {
   .form-text textarea {
     width: 465px;
   }
-
 }
