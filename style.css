@@ -134,7 +134,7 @@ nav {
 }
 
 .card1 {
-  max-width: 327px;
+  width: 327px;
   max-height: 596px;
   border: 1px solid grey;
   display: flex;
@@ -148,7 +148,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 280px;
+  width: 280px;
   height: 650px;
 }
 
@@ -164,8 +164,8 @@ nav {
 .options {
   display: flex;
   flex-direction: row;
-  gap: 12px;
-  max-width: 280px;
+  gap: 40px;
+  width: 380px;
 }
 
 .back-end {
@@ -224,7 +224,7 @@ nav {
   height: 24px;
   gap: 12px;
   list-style-type: none;
-  margin-left: -15px;
+  margin-left: -30px;
 }
 
 .html button {
@@ -279,6 +279,10 @@ nav {
   letter-spacing: 0.03em;
   border-color: #ebebff;
   color: #6070ff;
+}
+
+.ruby button {
+  display: none;
 }
 
 .submit {
@@ -367,7 +371,7 @@ nav {
 .skill-soft {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 700px;
   padding: 10px 16px;
 }
 
@@ -528,4 +532,482 @@ nav {
   font-size: 17px;
   font-weight: 400;
   color: #cfd8dc;
+}
+
+@media screen and (max-device-width: 768px) {
+  .reach {
+    display: none;
+  }
+
+  #snap2 {
+    display: none;
+  }
+
+  #snap4 {
+    display: none;
+  }
+
+  #snap6 {
+    display: none;
+  }
+
+  #snap8 {
+    display: none;
+  }
+
+  #head2 {
+    display: none;
+  }
+
+  #opt2 {
+    display: none;
+  }
+
+  #tex2 {
+    display: none;
+  }
+
+  #opt11 {
+    display: none;
+  }
+
+  #opt12 {
+    display: none;
+  }
+
+  #head3 {
+    display: none;
+  }
+
+  #tex11 {
+    display: none;
+  }
+
+  #par2 {
+    display: none;
+  }
+
+  #ub2 {
+    display: none;
+  }
+
+  #ub4 {
+    display: none;
+  }
+
+  #las2 {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+
+  main {
+    min-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 160px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .heading-header {
+   min-width: 768px;
+   width: 1790px;
+   height: 916px;
+  }
+
+  .section1 {
+    background-image: url(./images/Header-bg.png);
+    background-repeat: no-repeat;
+    background-position: 20% 10%;
+    background-size: 1750px 800px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .reach {
+    width: 259px;
+    height: 40px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+  }
+
+  .reach a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .title {
+    width: 920px;
+    height: 122px;
+    padding: 50px 250px;
+    padding-bottom: 0;
+  }
+
+  .title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 380px;
+    height: 80px;
+  }
+
+  .more-info {
+    width: 920px;
+    height: 98px;
+  }
+
+  .more-info p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 920px;
+    height: 98px;
+    padding: 0 230px;
+  }
+
+  .sub p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0 230px;
+    width: 130px;
+    height: 24px;
+  }
+
+  .socials ul {
+    padding: 0 270px;
+  }
+
+  .cards {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin-top: 140px;
+    gap: 110px;
+  }
+
+  .card1 {
+    margin: 142px auto;
+    width: 1156px;
+    height: 496px;
+    margin-left: -200px;
+  }
+
+  .container {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height:490px;
+  }
+
+  .right-obj {
+    width: 544px;
+  }
+
+  .information p {
+    width: 496px;
+  }
+
+  .languages {
+    width: 203px;
+    height: 24px;
+  }
+
+  #tit1 h3 {
+    width: 496px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  #left1,#left2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #snap1 {
+    display: none;
+  }
+
+  #snap3 {
+    display: none;
+  }
+
+  #snap5 {
+    display: none;
+  }
+
+  #snap7 {
+    display: none;
+  }
+
+  #head1 {
+    display: none;
+  }
+
+  #head2 {
+    width: 96px;
+  }
+
+  #opt1 {
+    display: none;
+  }
+
+  #opt2 {
+    width: 84px;
+  }
+
+  #tex1 {
+    display: none;
+  }
+
+  #opt10 {
+    display: none;
+  }
+
+  #opt13 {
+    display: none;
+  }
+
+  #head4 {
+    display: none;
+    width: 150px;
+    margin-right: 2px;
+  }
+
+  #tex10 {
+    display: none;
+  }
+
+  #par1 {
+    display:  none;
+  }
+
+  #ub1 {
+    display: none;
+  }
+
+  #ub3 {
+    display: none;
+  }
+
+  #las1 {
+    display: none;
+  }
+
+  .ruby button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 110px;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    border-color: #ebebff;
+    color: #6070ff;
+  }
+
+  .all-about {
+    width: 1750px;
+  }
+
+  .container3 {
+    display: flex;
+  }
+
+  .abouts {
+    width: 447px;
+    height: 392px;
+    padding: 142px;
+  }
+
+  .more-abouts p {
+    width: 447px;
+    height: 102px;
+  }
+
+  .skill-soft {
+    width: 904px;
+    height: 360px;
+    padding: 142px 20px;
+  }
+
+  .lang {
+    width: 904px;
+    height: 70px;
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+
+  .lang h4 {
+    width: 520px;
+  }
+
+  .lang svg {
+    position: absolute;
+    margin-left: 865px;
+    margin-top: -40px;
+  }
+
+  .tool ul {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 100px;
+  }
+
+  .java1 li {
+    width: 120px;
+    height: 120px;
+  }
+
+  .java-icon {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .labels {
+    padding-left: 10px;
+  }
+
+  .html-icon {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .html-icon img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .css-icon {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .css-icon img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .java-icon img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .frames li {
+    width: 874px;
+  }
+
+  .frameworks {
+    margin-top: 250px;
+  }
+
+  footer {
+    width: 1770px;
+    height: 846px;
+    background-color: #6070ff;
+  }
+
+  .form-container {
+    width: 1755px;
+    height: 846px;
+    background-color: #6070ff;
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/form-bck.png);
+    background-size: 1700px 950px;
+  }
+
+  .form-title {
+    width: 801px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .form-title h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .form-description {
+    width: 569px;
+    height: 72px;
+    margin-left: -150px;
+    margin-top: -30px;
+    text-align: center;
+  }
+
+  .form-description p {
+    width: 569px;
+    height: 72px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .form-entry {
+    margin-left: -100px;
+    width: 527px;
+    height: 395px;
+  }
+
+  .form-names input {
+    width: 465px;
+    transition: width 2s, color 2s, border-radius 2s, height 2s;
+  }
+
+  .form-mail input {
+    width: 465px;
+    transition: width 2s, color 2s, border-radius 2s, height 2s;
+  }
+
+  .form-text textarea {
+    width: 465px;
+  }
+
 }
