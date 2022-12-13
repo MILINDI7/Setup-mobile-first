@@ -137,10 +137,6 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/MILINDI7/Hello-word/issues).
 
-## 🤝 Collaborator(S) <a name="collaborator"></a>
-
->> https://github.com/deboik193
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
