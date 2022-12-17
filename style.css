@@ -614,7 +614,7 @@ nav {
 @media screen and (min-device-width: 768px) {
   body {
     max-width: 100%;
-    width: 1440px;
+    width: 1200px;
   }
 
   main {
@@ -716,7 +716,7 @@ nav {
     align-items: center;
     justify-content: center;
     max-width: 1100px;
-    margin-top: 140px;
+    margin-top: 100px;
     gap: 110px;
   }
 
