@@ -28,6 +28,7 @@ main {
   gap: 100px;
   background-color: #fff;
   border-bottom-left-radius: 45px;
+  max-width: 1600px;
 }
 
 nav {
@@ -65,6 +66,8 @@ nav {
   gap: 40px;
   background-color: #fff;
   border-bottom-left-radius: 45px;
+  padding-left: 80px;
+  padding-top: 150px;  
 }
 
 .title {
@@ -617,8 +620,8 @@ nav {
   }
 
   .heading-header {
-    min-width: 768px;
-    width: 1790px;
+    max-width: 1590px;
+    width: 1590px;
     height: 916px;
   }
 
@@ -862,7 +865,8 @@ nav {
   }
 
   .lang h4 {
-    width: 520px;
+    width: 320px;
+    margin-left: 40px;
   }
 
   .lang svg {
