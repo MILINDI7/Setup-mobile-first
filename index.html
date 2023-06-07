@@ -4,336 +4,324 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEACE Spa</title>
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main>
-    <div class="heading-header">
-      <header>
+  <header>
+    <div class="container">
+      <h2><span>PEACE</span>SPA</h2>
       <nav>
-        <div class="logo">
-          <a href="#">My Logo</a>
-        </div>
-        <div class="menu-button">
-          <img src="./images/Union.jpg" alt="hamburger-button">
+        <div class="menu-flex">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Massages</a>
+          <a href="#contact">Contacts</a>
         </div>
       </nav>
-    </header>
-    <section class="section1">
-      <div class="title">
-        <h1>I’m Mariane
-Glad to see you!</h1>
+    </div>
+  </header>
+  <main>
+    <section class="banner" id="home">
+      <div class="ban-container">
+        <h1>
+          Welcome to <br class="hide-mob" />
+          <span>PEACE</span> spa
+        </h1>
+        <h3>Where healing hands meet tranquil souls,<br>
+           our hospitality brings ancient wisdom to modern bodies</h3>
+
+        <a href="#" class="button">Find out more</a>
       </div>
-      <div class="more-info">
-        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+    </section>
+
+    <section class="services" id="services">
+      <div class="ser-container">
+        <h2 id="ser-h2">Le spa packages</h2>
+
+        <div class="services-grid">
+          <div class="service">
+            <figure class="img-box">
+              <img src="./Images/stress-buster.avif" alt="1" class="img" />
+            </figure>
+            <div class="content">
+              <h3 class="texts">stress buster</h3>
+              <p>This includes a lemon qros body scrub, fullboby stress releasing massage and foot massage.</p>
+              <div class="duration">
+                <button class="time">120 mins</button>
+                <button class="price">80,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="service">
+            <figure class="img-box">
+              <img src="./Images/detox.jpg" alt="2" class="img" />
+            </figure>
+            <div class="content">
+              <h3 class="texts">Le detox</h3>
+              <p>Starts with a fresh gloss cleansing juice followed by a warm touch of coffee scarb, massage, body wrap and later on a cup of green tea.</p>
+              <div class="duration">
+                <button class="time">120 mins</button>
+                <button class="price">100,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="service">
+            <figure class="img-box">
+              <img src="./Images/essential.jpg" alt="3" class="img" />
+            </figure>
+            <div class="content">
+              <h3 class="texts">Essentials</h3>
+              <p>These include scented warm towels , followed by a scented massage using anti aging oils</p>
+              <div class="duration">
+                <button class="time">80 mins</button>
+                <button class="price">50,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="service">
+            <figure class="img-box">
+              <img src="./Images/mens.jpg" alt="4" class="img" />
+            </figure>
+            <div class="content">
+              <h3 class="texts">Men's escope</h3>
+              <p>Men, it's time to have a soft time and melt down all the tension and stress. <br> package includes a body scrub, body wrap and sport massage. </p>
+              <div class="duration">
+                <button class="time">180 mins</button>
+                <button class="price">120,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </div>
-      <div class="sub">
-        <p>LET’S CONNECT</p>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="pro-container">
+        <h2 class="proj-h2">Massages</h2>
+
+        <div class="projects-grid">
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Body to body</h3>
+              <p class="proj-par">This involves close physical contact and the use of body to body techniques such as sliding and rubbing to create a heightened sense of connection and relaxation.
+                It aims to release tension and promote circulation.
+              </p>
+              <div class="duration">
+                <button class="time">70 mins</button>
+                <button class="price">800,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Lomi Lomi</h3>
+              <p class="proj-par">This Hawaiian healing technique involves long, flowing strokes using the therapist's hands, forearms and elbows; It aims to release tension ,
+                 promote relaxation and restore balancein the body and mind.   </p>
+              <div class="duration">
+                <button class="time">60 mins</button>
+                <button class="price">40,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Back massage</h3>
+              <p class="proj-par">This is a therapeutic treatment focused on the muscles and tissues of the back through various techniques such as kneading, rubbing, and applying pressure. It aims to alleviate tension, reduce muscle stiffneess and promotes relaxation mainly in the back area </p>
+              <div class="duration">
+                <button class="time">45 mins</button>
+                <button class="price">20,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+           <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Foot</h3>
+              <p class="proj-par">This is a therapeutic practice that involves applying pressure and manipulating the muscles and tissues of the feet. It is based on the belief that specific reflex points on the feet correspond to different areas of the body. By stimulating these points, foot massage aims to promote relaxation, relieve tension, improve blood circulation, and enhance overall well-being.</p>
+              <div class="duration">
+                <button class="time">30 mins</button>
+                <button class="price">15,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Scalp & face massage</h3>
+              <p class="proj-par">Scalp and face massage is a therapeutic technique that involves applying gentle pressure and manipulating the muscles and tissues of the scalp and face. It is designed to promote relaxation, relieve tension, and improve overall well-being. This helps to increase blood flow to the scalp, release muscle tension, and stimulate hair follicles.</p>
+              <div class="duration">
+                <button class="time">30 mins</button>
+                <button class="price">15,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Antistress candle therapy</h3>
+              <p class="proj-par">Antistress candle therapy is a form of aromatherapy that combines the calming effects of candlelight and soothing fragrances to promote relaxation and reduce stress. As the candles burn, they release the aromatic scents into the air, which can have a calming effect on the mind and body. The soft, flickering candlelight also helps to create a peaceful atmosphere, encouraging relaxation and mindfulness.</p>
+              <div class="duration">
+                <button class="time">90 mins</button>
+                <button class="price">60,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Classic aromatherapy</h3>
+              <p class="proj-par">Classic aromatherapy is a holistic healing practice that harnesses the power of aromatic plant extracts, known as essential oils, to promote well-being and enhance health. It involves the use of carefully selected essential oils derived from flowers, herbs, fruits, and other plant parts.
+
+In classic aromatherapy, essential oils are used in various ways, such as inhalation, topical application, or through baths. The aromatic molecules of the oils are believed to interact with the body and mind, producing therapeutic effects.</p>
+              <div class="duration">
+                <button class="time">60 mins</button>
+                <button class="price">35,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Le signature deep tissue</h3>
+              <p class="proj-par">Le Signature Deep Tissue massage is a specialized massage technique that focuses on targeting deeper layers of muscle and connective tissue in the body. It is designed to release chronic tension and alleviate muscle stiffness and pain. It aims to break down adhesions (knots) and scar tissue in the muscles, improve blood circulation, and promote overall relaxation and well-being.</p>
+              <div class="duration">
+                <button class="time">60 mins</button>
+                <button class="price">30,000rwf</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="proj-content">
+              <h3 class="proj-h3">Sport massage</h3>
+              <p class="proj-par">Sport massage is a specialized form of massage therapy that is tailored to the needs of athletes and individuals engaged in physical activities. It focuses on enhancing athletic performance, preventing injuries, and promoting faster recovery. he main goals of sport massage include improving flexibility, increasing range of motion, reducing muscle tension, promoting blood circulation, and alleviating muscle soreness. It can also help with injury rehabilitation and enhance overall athletic performance.</p>
+              <div class="duration">
+                <button class="time">70 mins</button>
+                <button class="price">50,000rwf</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center">
+          <a href="#" onclick="show_hide()" id="show" class="button">view more</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="others" id="other">
+
+      <h5>Body treatment</h5>
+
+      <div class="body-treatments">    
+        <div class="left-side">
+          <ul>
+            <li>Body scrubs(different types)</li>
+            <li>Body wraps</li>
+          </ul>
+        </div>
+
+        <div class="right-side">
+          <ul>
+            <li>30,000 rwf</li>
+            <li>30, 000rwf</li>
+          </ul>
+        </div>
+      </div>
+
+      <h5>Waxing</h5>
+
+      <div class="wax">
+        <div class="left-side">
+          <ul>
+            <li>Brazilian(hollywood) wax</li>
+            <li>Bikini like wax</li>
+            <li>Full legs wax</li>
+            <li>Half legs wax</li>
+            <li>Full arms wax</li>
+            <li>Half arms wax</li>
+            <li>Under arm wax</li>
+            <li>Eye brows wax</li>
+            <li>Min wax</li>
+            <li>Upper lip wax</li>
+            <li>Pacuil wax</li>
+            <li>Chest wax</li>
+            <li>Back wax</li>
+            <li>Stomach wax</li>
+          </ul>
+        </div>
+
+        <div class="right-side">
+          <ul>
+            <li>30,000rwf</li>
+            <li>20,000rwf</li>
+            <li>20,000rwf</li>
+            <li>15,000rwf</li>
+            <li>15,000rwf</li>
+            <li>10,000rwf</li>
+            <li>5,000rwf</li>
+            <li>5,000rwf</li>
+            <li>15,000rwf</li>
+            <li>5,000rwf</li>
+            <li>1,000rwf</li>
+            <li>15,000rwf</li>
+            <li>20,000rwf</li>
+            <li>15,000rwf</li>
+          </ul>
+        </div>
+      </div>
+      <span class="modal-close">Exit</span>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="cont-container">
+        <h2 class="cont-h2">Contact</h2>
+
+        <form action="">
+          <div class="form-grid">
+            <div class="form-group">
+              <input type="text" name="name" id="name" placeholder="name" class="form-element" />
+              <input type="email" name="email" id="email" placeholder="email" class="form-element" />
+              <textarea name="message" id="message" placeholder="Message" class="form-area"></textarea>
+            </div>
+            <div class="right-align">
+              <input type="submit" value="Book a Service" id="form-button" class="button">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="foot">
+      <div class="copy">
+      <img src="./Images/logo.jpeg" alt="logo">
+      <p>Peace spa</p>
+      <span>Copyright2023</span>
       </div>
       <div class="socials">
-        <ul>
-          <li class="twitter"><a href="#"><img src="./images/twitter.jpg" alt="twitter"></a></li>
-          <li class="linkedin"><a href="#"><img src="./images/Linkedin-icon.jpg" alt="linkedin"></a></li>
-          <li class="mail"><a href="#"><img src="./images/mail.jpg" alt="mail"></a></li>
-          <li class="github"><a href="#"><img src="./images/github.jpg" alt="github"></a></li>
-          <li class="peace"><a href="#"><img src="./images/peace.jpg" alt="peax"></a></li>
-        </ul>
+        <a href="#"><img src="./Images/insta.png" alt=""></a>
+        <a href="#"><img src="./Images/twitter.png" alt=""></a>
+        <div class="phone">
+          <img src="./Images/phone.png" alt="">
+          <p>+250 789 211 703</p>
+      </div>
       </div>
     </section>
-    </div>
-    <section class="cards">
-      <div class="card1">
-        <div class="container">
-          <div class="placeholder1">
-            <img src="./images/Snapshoot_Portfolio.png" alt="placeholder-1">
-          </div>
-          <div class="subtitle">
-            <h3>Tonic</h3>
-          </div>
-          <div class="options">
-            <div class="simple-header">
-              <h4>Canopy</h4>
-            </div>
-            <div class="back-end" class="opt">
-              <input type="radio"><p>Back End  Dev</p>
-            </div>
-            <div class="year" class="opt">
-              <input type="radio"><p>2015</p>
-            </div>
-          </div>
-          <div class="information">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-          <div class="languagess">
-            <ul>
-              <li class="html">
-                <button>html</button>
-              </li>
-              <li class="css">
-                <button>css</button>
-              </li>
-              <li class="javascript">
-                <button>javascript</button>
-              </li>
-            </ul> 
-          </div>
-          <div  class="submit">
-            <button>
-            see project
-          </button>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="card1">
-        <div class="container">
-          <div class="placeholder1">
-            <img src="./images/Snapshoot_Portfolio2.png" alt="placeholder-1">
-          </div>
-          <div class="subtitle">
-            <h3>Multi-Post<br>
-Stories</h3>
-          </div>
-          <div class="options">
-            <div class="simple-header">
-              <h4>Canopy</h4>
-            </div>
-            <div class="back-end" class="opt">
-              <input type="radio"><p>Back End  Dev</p>
-            </div>
-            <div class="year" class="opt">
-              <input type="radio"><p>2015</p>
-            </div>
-          </div>
-          <div class="information">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-          <div class="languagess">
-            <ul>
-              <li class="html">
-                <button>html</button>
-              </li>
-              <li class="css">
-                <button>css</button>
-              </li>
-              <li class="javascript">
-                <button>javascript</button>
-              </li>
-            </ul> 
-          </div>
-          <div  class="submit">
-            <button>
-            see project
-          </button>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="card1">
-        <div class="container">
-          <div class="placeholder1">
-            <img src="./images/Snapshoot_Portfolio3.png" alt="placeholder-1">
-          </div>
-          <div class="subtitle">
-            <h3>Tonic</h3>
-          </div>
-          <div class="options">
-            <div class="simple-header">
-              <h4>Canopy</h4>
-            </div>
-            <div class="back-end" class="opt">
-              <input type="radio"><p>Back End  Dev</p>
-            </div>
-            <div class="year" class="opt">
-              <input type="radio"><p>2015</p>
-            </div>
-          </div>
-          <div class="information">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-          <div class="languagess">
-            <ul>
-              <li class="html">
-                <button>html</button>
-              </li>
-              <li class="css">
-                <button>css</button>
-              </li>
-              <li class="javascript">
-                <button>javascript</button>
-              </li>
-            </ul> 
-          </div>
-          <div  class="submit">
-            <button>
-            see project
-          </button>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="card1">
-        <div class="container">
-          <div class="placeholder1">
-            <img src="./images/Snapshoot_Portfolio4.png" alt="placeholder-1">
-          </div>
-          <div class="subtitle">
-            <h3>Multi-Post<br>
-Stories</h3>
-          </div>
-          <div class="options">
-            <div class="simple-header">
-              <h4>Canopy</h4>
-            </div>
-            <div class="back-end" class="opt">
-              <input type="radio"><p>Back End  Dev</p>
-            </div>
-            <div class="year" class="opt">
-              <input type="radio"><p>2015</p>
-            </div>
-          </div>
-          <div class="information">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-          <div class="languagess">
-            <ul>
-              <li class="html">
-                <button>html</button>
-              </li>
-              <li class="css">
-                <button>css</button>
-              </li>
-              <li class="javascript">
-                <button>javascript</button>
-              </li>
-            </ul> 
-          </div>
-          <div  class="submit">
-            <button>
-            see project
-          </button>
-          </div>
-        </div>
-        </div>
-      </div>      
-    </section>
-    <section class="all-about">
-      <div class="container3">
-        <div class="abouts">
-          <div class="title7">
-            <h3>
-              About <br> Myself
-            </h3>
-          </div>
-          <div class="more-abouts">
-            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-          </div>
-          <div class="subs">
-            <h4>
-              LET’S CONNECT
-            </h4>
-          </div>
-          <div class="social-medias">
-              <ul>                
-                <li>
-                  <a href="#"><img src="./images/github.jpg" alt="git"></a>
-                </li>
-                <li>
-                  <a href="#"><img src="./images/Linkedin-icon.jpg" alt="Linkedin-icon"></a>
-                </li>
-                <li>
-                  <a href="#"><img src="./images/peace.jpg" alt="Vector"></a>
-                </li>
-                <li>
-                  <a href="#"><img src="./images/twitter.jpg" alt="twitter"></a>
-                </li>
-                <li>
-                  <a href="#"><img src="./images/mail.jpg" alt="mail"></a>
-                </li>
-             </ul>
-          </div>
-          <div class="about-button">
-            <button>Get my resume</button>
-          </div>
-        </div>
-        <div class="skill-soft">
-          <div class="languages">
-          <div class="lang">
-            <h4>Languages</h4>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 8.29289C5.68342 7.90237 6.31658 7.90237 6.70711 8.29289L12 13.5858L17.2929 8.29289C17.6834 7.90237 18.3166 7.90237 18.7071 8.29289C19.0976 8.68342 19.0976 9.31658 18.7071 9.70711L12.7071 15.7071C12.3166 16.0976 11.6834 16.0976 11.2929 15.7071L5.29289 9.70711C4.90237 9.31658 4.90237 8.68342 5.29289 8.29289Z" fill="#5E6C84"/>
-</svg>
-          </div>
-          <div class="tool">
-            <ul class="java1">
-              <li class="java-icon">
-                <img src="./images/js.png" alt="javascript-icon">
-                <p class="labels">JavaSript</p>
-              </li>
-              <li class="html-icon">
-                <img src="./images/html.png" alt="html-icon">
-                <p class="labels">HTML</p>
-              </li>
-              <li class="css-icon">
-                <img src="./images/css.png" alt="css-icon">
-                <p class="labels">CSS</p>
-              </li>
-            </ul>
-          </div>        
-          </div>
-          <div class="frameworks">
-            <div class="frames">
-              <ul>
-                <li>
-                  <p>Frameworks</p>
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 5.43962C9.68342 5.0491 10.3166 5.0491 10.7071 5.43962L16.7071 11.4396C17.0976 11.8301 17.0976 12.4633 16.7071 12.8538L10.7071 18.8538C10.3166 19.2444 9.68342 19.2444 9.29289 18.8538C8.90237 18.4633 8.90237 17.8301 9.29289 17.4396L14.5858 12.1467L9.29289 6.85384C8.90237 6.46331 8.90237 5.83015 9.29289 5.43962Z" fill="#505F79"/>
-</svg>
-                </li>
-                <li>
-                  <p>Skills</p>
-                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 5.43962C9.68342 5.0491 10.3166 5.0491 10.7071 5.43962L16.7071 11.4396C17.0976 11.8301 17.0976 12.4633 16.7071 12.8538L10.7071 18.8538C10.3166 19.2444 9.68342 19.2444 9.29289 18.8538C8.90237 18.4633 8.90237 17.8301 9.29289 17.4396L14.5858 12.1467L9.29289 6.85384C8.90237 6.46331 8.90237 5.83015 9.29289 5.43962Z" fill="#505F79"/>
-</svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-    <form action="https://formspree.io/f/mgeqvzeo" method="post">
-        <div class="form-container">
-          <div class="form-title">
-            <h3>Contact me</h3>
-          </div>
-          <div class="form-description">
-            <p>If you have an application you <br>are interested in developing, a<br> feature that you need built or a<br> project that needs coding. I’d<br>          love to help with it </p>
-          </div>
-          <div class="form-entry">
-             <ul>
-              <li class="form-names">
-                <label for="name"></label>
-                <input type="text" name="user-name" id="name" maxlength="30" value="Milindi" required>
-              </li>
-              <li class="form-mail">
-                <label for="mail"></label>
-                <input type="email" name="user-mail" id="mail" value="dshema7@gmail.com" required>
-              </li>
-              <li class="form-text">
-                <label for="msg"></label>
-                <textarea name="user-message" id="msg" maxlength="500" cols="30" rows="10" required>Enter your message here</textarea>
-              </li>
-              <li class="about-button" id="intouch">
-                <button type="submit">Get In Touch</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </form>
-    </footer>
   </main>
+  <script src="main.js"></script>
 </body>
 </html>
